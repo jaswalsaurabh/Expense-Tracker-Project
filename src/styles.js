@@ -16,6 +16,11 @@ export default makeStyles((theme) => ({
       paddingBottom: '5%',
     },
   },
+  chatBotDiv:{
+    position: 'fixed',
+    right:10,
+    
+  },
   last: {
     [theme.breakpoints.down('sm')]: {
       marginBottom: theme.spacing(3),
